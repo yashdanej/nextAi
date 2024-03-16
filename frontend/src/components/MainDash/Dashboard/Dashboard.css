@@ -1,0 +1,23 @@
+.plainCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardBody{
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    padding: .45rem 2rem;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid transparent;
+    
+}
+.cardBody:hover{
+    border: 1px solid black;
+}
